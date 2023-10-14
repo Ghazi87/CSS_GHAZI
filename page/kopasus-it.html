@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Belajar page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* CSS untuk class header */
+        .header {
+            background-color: green;
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* setting layout maksimal screen size */
+        @media screen and (max-width:600px) {
+            .columnA, .columnB, .columnC {
+                width: 50%;
+            }
+        }
+        @media screen and (max-width:400px) {
+            .columnA, .columnB, .columnC {
+                width: 100%;
+            }
+        }
+
+        .columnA {
+            float: left;
+            width: 100%;
+            padding: 15px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <!-- header web -->
+    <div class = "header">
+        <h2 style="color: white;font-size: 200%">
+        SMA Plus PGRI Cibinong
+        </h2>
+    </div>
+
+    <!-- menu web -->
+    <div class= "nav_menu">
+        <a href = "../index.html">Beranda</a>
+        <a href = "studentday.html">Studentday</a>
+        <a href = "#" class="active">Kopassus IT</a>
+    </div>
+
+    <!-- Konten -->
+    <div class = "row">
+        <div class = "columnA">
+            <h2>Ini adalah halaman kopasus it</h2>
+            <p>
+                kopasus it merupakan salah satu organisasi siswa yang ada di SMA Plus PGRI CIBINONG
+                dan hanya ada di SMA Plus PGRI CIBINONG. Ilmu pengetahuan dan teknologi merupakan hal
+                yang paling pesat perkembangannya yang kita rasakan selama dalam dunia moedern saat ini.
+                setiap detiknya ilmu ini selalu mengalami perkembangan-perkembangan yang signifikan.
+                mempelajari teknologi saat ini telah menjadi sesutu yang wajib bagi semua orang.
+                sebab kemajuan teknologi saat ini menjadi salah satu syarat menggunakan alat-alat Didalam
+                membantu menyelesaikan pekerjaan, tugas-tugas sekolah maupun kuliah.
+            </p>
+        </div>
+        <center>
+            <img src="../gambar/kopasus.jpg" alt="ini gambar pembina kopasus">
+        </center>
+    </div>
+</body>
+</html>
